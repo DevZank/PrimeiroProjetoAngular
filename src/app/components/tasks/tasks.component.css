@@ -1,0 +1,41 @@
+ul {
+  list-style: none;
+}
+
+.Wishbox {
+  color: white;
+  background: #2c2c2c;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 900px;
+  margin: 30px auto;
+  min-height: 300px;
+  border: 1px solid white;
+  border-radius: 5px;
+
+  .DescriptionBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px;
+
+    img {
+      width: 30px;
+    }
+  }
+
+  .ImageBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    background: #84d8ff;
+
+    img {
+      margin: 20px 0;
+      width: 200px;
+    }
+  }
+}
